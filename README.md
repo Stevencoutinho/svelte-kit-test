@@ -4,7 +4,7 @@
 
 開発環境 (create-svelte で作成): Vite + Svelte + TypeScript
 
-[`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+[create-svelte](https://github.com/sveltejs/kit/tree/master/packages/create-svelte)
 
 ## Development
 
