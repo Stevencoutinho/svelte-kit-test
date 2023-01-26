@@ -1,38 +1,25 @@
-# create-svelte
+# svelte-kit-test
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+[Svelte デモアプリ](https://github.com/Stevencoutinho/svelte-test) の SvelteKit 版を作成。
 
-## Creating a project
+開発環境 (create-svelte で作成): Vite + Svelte + TypeScript
 
-If you're seeing this, you've probably already done this step. Congrats!
+[`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Development
 
-# create a new project in my-app
-npm create svelte@latest my-app
+1.依存関係インストール
+
+```
+yarn install
 ```
 
-## Developing
+2. 開発サーバー立ち上げ
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```
+yarn dev
 ```
 
-## Building
+3. ブラウザでアクセス
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+ブラウザで [http://localhost:3000](http://localhost:3000) にアクセスして開発する。
